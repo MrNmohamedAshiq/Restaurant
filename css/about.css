@@ -1,0 +1,757 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    src: url(../assets/fonts/Blacksword.otf);
+    font-family: blacksword;
+}
+
+@font-face {
+    src: url(../assets/fonts/GreatVibes-Regular.ttf);
+    font-family: sub;
+}
+
+@font-face {
+    src: url(../assets/fonts/Born\ Again\ Demo.ttf);
+    font-family: substyle;
+}
+
+@font-face {
+    src: url(../assets/fonts/FreshMulberryDemoRegular.ttf);
+    font-family: head;
+}
+
+@font-face {
+    src: url(../assets/fonts/Aishiteru\ Darling.otf);
+    font-family: food;
+}
+
+.logo_img {
+    height: 150px;
+    width: 130px;
+    margin-top: -11%;
+}
+
+#name {
+    color: #921252;
+    margin-top: 18px;
+    font-family: sub;
+    letter-spacing: 1px;
+    color: #4e2e29;
+}
+
+.logo {
+    display: flex;
+    float: left;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav-iteam {
+    float: left;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 14px 15px;
+    margin: 15px;
+    display: block;
+    position: relative;
+    font-size: 1.4rem;
+    font-family: head;
+    color: #921252;
+}
+
+.nav-link::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: rgb(245, 75, 75);
+    overflow: hidden;
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
+    transition: .4s;
+}
+
+.nav-link:hover:after {
+    width: 60%;
+}
+
+.nav-link:hover {
+    color: rgb(241, 64, 64);
+}
+
+.img_text {
+    font-size: 1.1rem;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(245, 75, 75);
+    transition: 1s;
+    cursor: pointer;
+    color: #921252;
+    position: relative;
+    top: 22px;
+}
+
+.img_text:hover {
+    color: rgb(245, 75, 75);
+}
+
+#contact {
+    border: 1px solid black;
+    padding: 15px 20px 15px 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(245, 75, 75);
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: 22px;
+}
+
+.phone {
+    margin: 0px 5px -9px -10px;
+    height: 30px;
+    width: 30px;
+}
+
+#img_contant {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sloganmain {
+    margin-top: -60%;
+}
+
+.slogan {
+    font-family: substyle;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 5rem;
+    color: #921252
+}
+
+.sub {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px;
+    font-family: sub;
+}
+
+.contact_image {
+    height: 585px;
+    width: 100%;
+    background-image: url(../assets/image/top-view-delicious-snacks-arrangement.jpg);
+    background-size: 50% 700px;
+    background-repeat: no-repeat;
+    background-position: 100% 45px;
+}
+
+#menu {
+    height: 45px;
+    width: 140px;
+    font-size: 1.2rem;
+    background-color: rgb(245, 75, 75);
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 20px 10px 0px 10px;
+    margin: 5% 0px 0px 16%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+#watch {
+    color: rgb(238, 68, 68);
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: -7%;
+    margin-left: 30%;
+}
+
+#watch img {
+    height: 35px;
+    width: 40px;
+    float: left;
+    margin: -5px 5px 0px 0px;
+    flex-direction: column;
+}
+
+.insta_image {
+    height: 100%;
+    width: 100%;
+}
+
+.insta_image img {
+    height: 235px;
+    width: 306px;
+    margin: 0px;
+    float: left;
+}
+
+.section2 {
+    margin-top: 10%;
+    text-align: center;
+    width: 100%;
+    height: 550px;
+}
+
+#bestway {
+    font-size: 3.5rem;
+    padding-bottom: 20px;
+    font-family:blacksword;
+}
+
+.burger {
+    height: 100px;
+    width: 100px;
+    margin-left: 31%;
+    margin-bottom: 10px;
+}
+
+.burger img {
+    height: 100%;
+    width: 100%;
+}
+
+.cafe {
+    height: 100px;
+    width: 100px;
+    margin-left: 32%;
+    margin-bottom: 10px;
+}
+
+.cafe img {
+    height: 100%;
+    width: 100%;
+}
+/* #healthy_txt
+{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+#burger_txt
+{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+#cafe_txt
+{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+} */
+#healthy_txt
+{
+    font-size: 2.8rem;
+    font-family:food;
+    color: #4e2e29;
+}
+#burger_txt
+{
+    font-size: 2.8rem;
+    font-family:food;
+    color: #4e2e29;
+}
+#cafe_txt
+{
+    font-size: 2.8rem;
+    font-family:food;
+    color: #4e2e29;
+}
+.healthy {
+    height: 100px;
+    width: 100px;
+    margin-left: 31%;
+    margin-bottom: 10px;
+}
+
+.healthy img {
+    height: 100%;
+    width: 100%;
+}
+.card1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section2_border {
+    border: 1px solid black;
+    border: none;
+    padding: 20px 60px 80px 60px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.section2_border h1 {
+    margin-bottom: 10px;
+    color: #4e2e29;
+}
+.footer2 {
+    text-align: center;
+}
+
+.quick {
+    font-family: sub;
+    font-size: 15px;
+    margin-top: 25%;
+    color: #4e2e29;
+}
+
+.footer_nav {
+    margin: 10px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-family: head;
+    color: #4e2e29;
+}
+
+.footer_nav::after {
+    content: '';
+    height: 1px;
+    width: 0%;
+    background-color: rgb(245, 75, 75);
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    transition: .4s;
+}
+
+.footer_nav:hover:after {
+    width: 20%;
+}
+
+.footer_cake {
+    margin: 10px;
+    cursor: pointer;
+    font-family: head;
+    color: #4e2e29;
+}
+
+.footer_cake:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(245, 75, 75);
+    color: rgb(245, 75, 75);
+
+}
+
+.footer3 div {
+    margin: 10px;
+}
+
+.footer_contact {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 27%;
+    font-family: sub;
+    color: #4e2e29;
+}
+
+.insta_image {
+    height: 100%;
+    width: 100%;
+}
+
+.insta_image img {
+    height: 235px;
+    width: 306px;
+    margin: 0px;
+    float: left;
+}
+
+.end {
+    height: 5vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.end_logo {
+    height: 150px;
+    width: 130px;
+}
+
+.end_position {
+    margin-right: 50px;
+}
+
+.name {
+    margin: -18% 0px 0px 25%;
+    font-size: 2rem;
+    font-family: sub;
+}
+
+.end_para {
+    margin: 8% 0px 0px 5%;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.app_logo {
+    height: 100%;
+    width: 100%;
+}
+
+.app_logo img {
+    height: 20px;
+    width: 20px;
+    margin: 40px 10px 5px 10px;
+    transition: 1s;
+}
+
+.logo_main {
+    margin-left: 30px;
+}
+
+.app_logo img:hover {
+    transform: translatey(-10px);
+}
+
+.footer2 {
+    text-align: center;
+}
+
+.quick {
+    font-family: sub;
+    font-size: 15px;
+    margin-top: 25%;
+    color: #4e2e29;
+}
+
+.footer_nav {
+    margin: 10px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-family: head;
+    color: #4e2e29;
+}
+
+.footer_nav::after {
+    content: '';
+    height: 1px;
+    width: 0%;
+    background-color: rgb(245, 75, 75);
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    transition: .4s;
+}
+
+.footer_nav:hover:after {
+    width: 20%;
+}
+
+.footer_cake {
+    margin: 10px;
+    cursor: pointer;
+    font-family: head;
+    color: #4e2e29;
+}
+
+.footer_cake:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(245, 75, 75);
+    color: rgb(245, 75, 75);
+
+}
+
+.footer3 div {
+    margin: 10px;
+}
+
+.footer_contact {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 27%;
+    font-family: sub;
+    color: #4e2e29;
+}
+
+@media all and (max-width: 438px) {
+    .logo {
+        float: none;
+    }
+
+    .logo_img {
+        height: 350px;
+        width: 350px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #name {
+        margin-top: 16%;
+        font-size: 4.5rem;
+    }
+
+    .nav-iteam {
+        float: none;
+    }
+
+    .nav-link {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .booking {
+        margin-left: 28%;
+    }
+
+    .img_text {
+        font-size: 2rem;
+    }
+
+    #contact {
+
+        font-size: 30px;
+    }
+
+    .phone {
+        height: 50px;
+        width: 50px;
+    }
+
+    .nav-link::after {
+        left: 44%;
+    }
+
+    .nav-link:hover:after {
+        width: 13%;
+    }
+
+    .nav-link:hover {
+        color: rgb(226, 54, 54);
+    }
+
+    .contact_image {
+        width: 100%;
+        background-size: 100% 70%;
+        background-position: 0% 20px;
+    }
+
+    #img_contant {
+        grid-template-columns: none;
+    }
+
+    .sub {
+        font-size: 4rem;
+        font-weight: bold;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .sloganmain {
+        margin: -10% 0px 0px 0px;
+    }
+
+    .menu_watch
+    {
+        margin-left: 6%;
+    }
+
+    #menu {
+        height: 65px;
+        width: 160px;
+        font-size: 2rem;
+        margin: 5% 0px 0px 22%;
+    }
+
+    #watch {
+        font-size: 2.5rem;
+        margin-left: 7%;
+        display: block;
+    }
+
+    #watch img {
+        height: 50px;
+        width: 60px;
+        margin: -4px 10px 0px 38%;
+    }
+
+    .section2 {
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    #bestway {
+        font-size: 4rem;
+    }
+
+    #reservation {
+        font-size: 2.6rem;
+    }
+
+    .card1 {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        column-gap: 20%;
+    }
+
+    .section2_border {
+        padding: 5% 10% 12% 10%;
+        margin: 3% 20% 3% 20%;
+    }
+
+    .burger {
+        height: 110px;
+        width: 120px;
+        margin-left: 35%;
+    }
+
+    .cafe {
+        height: 110px;
+        width: 120px;
+        margin-left: 35%;
+    }
+
+    .healthy {
+        height: 110px;
+        width: 120px;
+        margin-left: 35%;
+        margin-bottom: 10px;
+    }
+
+    .section2_border h1 {
+        font-size: 3rem;
+    }
+
+    #burger_txt {
+        font-size: 4.4rem;
+    }
+
+    #cafe_txt {
+        font-size: 4.4rem;
+    }
+
+    #healthy_txt {
+        font-size: 4.4rem;
+    }
+    .section5
+     {
+        display: flex;
+        overflow: hidden;  
+     }
+     .end
+     {
+        margin-top: 135%;
+        grid-template-columns:none;
+     }
+     .end_logo
+     {
+        height: 350px;
+        width: 330px;
+     }
+     .name{
+        margin: -16% 0px 0px 30%;
+        font-size: 4rem;
+     }
+     .end_para
+     {
+        margin: 10% 0px 0px 7%;
+        text-align: justify;
+        font-size: 2rem;
+        font-weight:bold;
+     }
+     .app_logo{
+        height: 100%;
+        width: 100%;
+     }
+     .app_logo img{
+        height: 50px;
+        width: 50px;
+        margin: 50px 20px 10px 30px;
+     }
+     .app_logo img:hover{
+      transform: translatey(-15px);
+     }
+     .quick
+     {
+        font-size: 2rem;
+        margin-top: 10%;
+     }
+     .footer_nav
+     {
+        font-size: 2.2rem;
+     }
+     .footer_nav::after {
+        left:45%;
+    }
+
+    .footer_nav:hover:after {
+        width: 10%;
+    }
+    .footer_cake
+    {
+        margin: 10px;
+        font-size: 2.2rem;
+    }
+    .footer3 div
+    {
+        margin: 10px;
+    }
+    .footer_contact
+    {
+        font-size:3rem;
+        margin-top: 10%;
+        text-align: center;
+    }
+    .footer_add
+    {
+        text-align: center;
+        margin: 5px;
+        font-size: 2rem;
+    }
+    .footer_num
+    {
+        text-align: center;
+        margin: 5px;
+        font-size: 2rem;
+    }
+    .footer_mail
+    {
+        text-align: center;
+        margin: 5px;
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    #contact {
+        top: 0px;
+    }
+
+    .img_text {
+        top: 0px;
+    }
+
+    .phone {
+        margin: 25px 5px -8px -10px;
+        height: 30px;
+        width: 30px;
+    }
+}
