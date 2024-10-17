@@ -749,7 +749,7 @@
         color: #4e2e29;
     }
 
-    @media all and (max-width: 438px) {
+    @media (min-width:300px) and (max-width:600px) {
         .logo {
             float: none;
         }
